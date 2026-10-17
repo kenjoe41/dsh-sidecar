@@ -1,0 +1,5 @@
+# The dsh-sidecar bundle patch: one row. The plugin registers the /sidecar
+# command and nothing else; it needs no configuration.
+- insert:
+    - id: sidecar
+      name: dsh-sidecar
